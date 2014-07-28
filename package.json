@@ -1,35 +1,35 @@
 {
-    "name" : "mox-notify",
-    "version" : "0.3.0",
-    "description" : "Notification module within the Mox system",
-    "main" : "index.js",
+    "name": "mox-notify",
+    "version": "0.3.1",
+    "description": "Notification module within the Mox system",
+    "main": "index.js",
     "scripts": {
         "build": "browserify --debug -e browserify.js -o ./test/vendor/build.js",
         "test": "browserify --debug -e browserify.js -o ./test/vendor/build.js && echo 'open http://localhost:3000' && ./node_modules/.bin/serve test/"
     },
-    "repository" : {
-        "type" : "git",
-        "url" : "git://github.com/TeachBoost/mox-notify.git"
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/TeachBoost/mox-notify.git"
     },
-    "author" : "Mike Gioia <mike@particlebits.com> (https://particlebits.com/)",
-    "license" : "ISC",
-    "bugs" : {
-        "url" : "https://github.com/TeachBoost/mox-notify/issues"
+    "author": "Mike Gioia <mike@particlebits.com> (https://particlebits.com/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TeachBoost/mox-notify/issues"
     },
-    "homepage" : "https://github.com/TeachBoost/mox-notify",
-    "dependencies" : {
-        "underscore" : "*",
-        "jquery-browserify" : "*",
-        "notify" : "git+ssh://git@github.com:jpillora/notifyjs.git#0.3.1"
+    "homepage": "https://github.com/TeachBoost/mox-notify",
+    "dependencies": {
+        "underscore": "*",
+        "jquery-browserify": "*",
+        "notify": "git+ssh://git@github.com:jpillora/notifyjs.git#0.3.1"
     },
     "devDependencies": {
-        "mocha" : "*",
-        "chai" : "*",
-        "serve" : "*",
-        "browserify" : "*"
+        "mocha": "*",
+        "chai": "*",
+        "serve": "*",
+        "browserify": "*"
     },
-    "browser" : {
-        "notifyjs" : "./node_modules/notify/dist/notify.min.js",
-        "jquery" : "jquery-browserify"
+    "browser": {
+        "notifyjs": "./node_modules/notify/dist/notify.min.js",
+        "jquery": "jquery-browserify"
     }
 }

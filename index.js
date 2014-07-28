@@ -2,8 +2,8 @@
  * Notification wrapper library
  */
 
-var $ = require( 'jquery' );
-var _ = require( 'underscore' );
+var $ = require( 'jquery' )
+  , _ = require( 'underscore' );
 require( 'notifyjs' );
 
 // create the API
